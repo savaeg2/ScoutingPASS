@@ -13,7 +13,7 @@ var config_data = `
       "maxSize": 5,
       "required": "true"
     },
-    { "name": "Event",
+    { "name": "SBPLI",
       "code": "e",
       "gsCol": "event",
       "type": "event",
