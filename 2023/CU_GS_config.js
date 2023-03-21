@@ -32,7 +32,7 @@ var config_data = `
       },
       "defaultValue": "qm",
       "required": "true"
-    },
+  
     { "name": "Match #",
       "code": "m",
       "gsCol": "matchNum",
@@ -62,14 +62,6 @@ var config_data = `
       "min": 1,
       "max": 99999
     },
-    { "name": "Auto Start Position",
-      "code": "as",
-      "gsCol": "autoStartPosition",
-      "type": "field_image",
-      "filename": "2023/field_image.png",
-      "clickRestriction": "one",
-      "shape": "circle 5 black red true"
-    }
   ],
   "auton": [
     { "name": "Auto Scoring",
@@ -131,26 +123,13 @@ var config_data = `
       "shape": "circle 12 black red true",
       "cycleTimer": "tct"
     },
-    { "name": "Feeder Count<br>(Fed another bot)",
-      "code": "tfc",
-      "gsCol": "feedCount",
-      "type": "counter"
-    },
+    
     { "name": "Was Defended",
       "code": "wd",
       "gsCol": "wasDefended",
       "type": "bool"
     },
-    { "name": "Who Defended this bot<br>(Team #)",
-      "code": "who",
-      "gsCol": "defenderTeamNum",
-      "type": "text"
-    },
-    { "name": "Smart Placement<br>(creates Links)",
-      "code": "lnk",
-      "gsCol": "smartPlacement",
-      "type": "bool"
-    },
+    
     { "name": "Floor Pick UP",
       "code": "fpu",
       "gsCol": "floorPickUp",
